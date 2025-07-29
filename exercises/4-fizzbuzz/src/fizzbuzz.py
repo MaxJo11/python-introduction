@@ -7,6 +7,10 @@ def fizzbuzz(number: int) -> str:
         return "Buzz"
     return str(number)
 
-def fizzbuzz2 ():
-    for i in range(1,101) :
-        print(fizzbuzz(i))
+def fizzbuzz_from_range (lower : int , upper : int) -> str :
+    result = ""
+    upper = upper + 1
+    for i in range (lower , upper) :
+        result += fizzbuzz(i)
+
+    return result

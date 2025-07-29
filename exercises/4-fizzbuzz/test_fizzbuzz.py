@@ -1,4 +1,4 @@
-from src import fizzbuzz
+from src import *
 
 
 
@@ -16,3 +16,6 @@ def test_4_should_return_4():
 
 def test_5_should_return_5() :
     assert fizzbuzz(15) == 'FizzBuzz'
+
+def test_6_should_return_6():
+    assert fizzbuzz_from_range(1, 15) == '12Fizz4BuzzFizz78FizzBuzz11Fizz1314FizzBuzz'
