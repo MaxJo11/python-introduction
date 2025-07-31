@@ -12,11 +12,9 @@ class RegularFrame:
 
         if throw == "-":
             return 0
-        elif throw.isdigit():
-            return int(throw)
-        return 0
 
-        if throw == "/" :
+        return int(throw)
+
 
 
 
